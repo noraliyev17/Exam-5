@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    background: #f1f1f1;
+}
+
+
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.text-decon {
+    text-decoration: none;
+    color: black;
+}
+
+.drdw {
+    position: absolute;
+    margin-top: -5px;
+    margin-left: -8px;
+    cursor: pointer;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+h6 {
+    font-size: small;
+}
+
+.text_stop {
+    background: white;
+    border-radius: 10px;
+    width: 260px;
+    text-align: center;
+    padding: 15px 20px;
+    margin-bottom: 30px;
+    color: #FF6652;
+}
+
+.left-side {
+    padding-top: 100px;
+}
+
+.p-r {
+    position: relative;
+}
+
+.mt-0e {
+    margin-top: -130px;
+    margin-bottom: 100px;
+}
+
+.purple_btn {
+    border: 1px solid#9C4DF4;
+    color: #9C4DF4;
+    font-weight: 500;
+}
+
+.purple_btn:hover {
+    background: #9C4DF4;
+    color: white;
+}
+
+.btn_purple {
+    background: #9C4DF4;
+    color: white;
+}
+
+.mini_div {
+    background: white;
+    padding: 30px 15px;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.some_section {
+    background: #EDE9F2;
+    border-radius: 20px;
+    padding-left: 10%;
+}
+
+.purple_buton {
+    color: #9C4DF4;
+    background: #E4E2F4;
+}
+
+.pos_a {
+    padding-bottom: 200px;
+    margin-top: 100px;
+    margin-left: 8%;
+}
+
+.mt_choto {
+    margin-top: 100px;
+}
+
+.div_before_footer {
+    background: #0A033C;
+    padding: 61px 50px;
+    border-radius: 20px;
+    margin-top: 118px;
+    text-align: center;
+}
+
+.bg-img {
+    left: 10px;
+}
+
+.input_footer {
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.col_dive {
+    width: 290px;
+}
+.text_purple {
+    color: #9C4DF4;
+}
+.modalka {
+    display: none;
+    background: #00000046;
+    border: 3px solid black;
+    color: white;
+    width: 100%;
+    height: 200vh;
+    z-index: 99999999;
+    position: fixed;
+    backdrop-filter: blur(4px);
+    text-align: center  ;
+}
+
+
+
+
+
+
+
+/* ========MEDIA QUERY!!!========= */
+
+@media screen and (max-width: 920px) {
+    h6 {
+        font-size: 9px;
+    }
+
+}
+
+@media screen and (min-width: 769px) {
+
+    .hidden-menu {
+        position: absolute;
+        top: -10010%;
+    }
+
+    .col_dive {
+        width: 20%;
+    }
+}
+
+
+@media screen and (max-width: 769px) {
+    .hide-nav {
+        position: absolute;
+        top: -100000000000000000000px;
+    }
+
+    .col_dive {
+        width: 30%;
+    }
+
+    .hidden-menu {
+        position: absolute;
+        top: 30%;
+        right: -18px;
+    }
+
+    .header {
+        height: 500px;
+        margin-bottom: 50px;
+    }
+
+    .hed {
+        font-size: 11px !important;
+        padding: 5px !important;
+        margin-top: -13px !important;
+
+    }
+
+    .text_stop {
+        font-size: 15px !important;
+        width: 200px;
+
+    }
+
+    .man {
+        margin-bottom: 10%;
+    }
+
+    .right-side {
+        height: 70%;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    .mt-100pqx {
+        margin-top: -100px;
+    }
+
+    .niger {
+        height: 70%;
+        margin-top: 100px;
+    }
+
+    .some_section {
+        padding-top: -100px;
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+    h6 {
+        font-size: 11px;
+        font-weight: bolder;
+    }
+
+    .col_dive {
+        width: 90%;
+    }
+
+    .right-side {
+        width: 100%;
+        margin: auto;
+    }
+
+    .left-side {
+        width: 100%;
+        margin: auto;
+
+    }
+
+    .text_stop {
+        margin-top: -50px;
+    }
+
+    .mt-100pqx {
+        margin-top: 350px;
+    }
+
+    .input-group {
+        display: block;
+    }
+
+    .form-control {
+        width: 100% !important;
+        margin-bottom: 20px !important;
+        margin-top: 4px !important;
+        border: radius 10px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    .niger {
+        width: 100%;
+        margin: auto;
+    }
+
+    .white {
+        display: block;
+    }
+
+    .some_section {
+        text-align: center;
+    }
+
+    .niger {
+        text-align: center;
+    }
+
+    .mt-55 {
+        margin-top: 7%;
+    }
+
+    .white {
+        height: 100%;
+        width: 240%;
+        text-align: center;
+    }
+
+    .text-sm-center {
+        text-align: center;
+        margin-left: -25px;
+    }
+
+    .db_divs {
+        width: 100%;
+        margin: auto;
+    }
+
+    .db_divs_ico {
+        width: 100%;
+        margin: auto;
+        margin-left: 50px;
+    }
+}

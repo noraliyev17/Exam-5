@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap css -->
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+    <!-- main css -->
+    <link rel="stylesheet" href="./login.css">
+    <title>Login</title>
+</head>
+<body>
+<div class="container">
+    <div class=" my-card mt-3 mb-3 p-3" >
+        <div class="row g-0">
+          <div class="col-md-4 d-flex images-div">
+            <img src="../images/Left.svg" class="img-fluid rounded-start big-img" alt="...">
+            <img src="../images/hr-reg.svg" class="hr" alt="">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+             <button class="google d-flex "> <img src="../images/logo-icon.svg" class="google-icon" alt=""><p class="google-desc">Sign Up with Google +</p> </button>
+              <a href="https://mail.google.com/" target="_blank" class="card-text sig-email text-decoration-none href-reg">-Or signup with your email-</a>
+  
+              <form class="inp-form" id="login">
+                <div class="mb-3">
+                  <label for="fullname" class=" input"><strong>Full Name</strong> </label>
+               <div class="full-name-div"><img class="vector-svg" src="../images/odam.svg" alt=""><input type="text" class="form-control inp-with ps-5" id="userNameRegister" placeholder="Esther Howard" ></div> 
+              
+                </div>
+          
+
+                <div class="mb-3">
+                  <label for="password" class=" input"><strong>Password</strong> </label>
+                 <div class="password-div"><img  class="vector-svg" src="../images/qulf.svg" alt=""><input type="password" class="form-control inp-with ps-5" id="userPasswordRegister" placeholder="********"></div>  
+                </div>
+
+
+                
+                <div class="mb-3 d-flex align-items-center gap-4">
+                  <input type="checkbox"  id="iagree"> <p class="chekbox-chek">Keep me signed in</p>
+                </div>
+
+                <button type="submit" class="btn btn-ozimizniki">Submit</button>
+                <div class="go-login d-flex gap-1 "><p>Alreay have account?</p><a class="text-decoration-none href-reg" href="../index.html "> Sign in</a></div>
+              </form>
+
+            </div>
+          </div>
+        </div>
+      </div>
+</div>
+
+</body>
+<script src="../utils.js"></script>
+<script src="./login.js"></script>
+</html>

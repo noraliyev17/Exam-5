@@ -1,0 +1,152 @@
+
+.book_shop{
+    background: #EFEBF5;
+    border-radius: 20px;
+    padding: 20px 30px;
+}
+.text_purple{
+    color: #9C4DF4;
+
+}
+.cart-with{
+    width: 200px;
+}
+.left_mini_div{
+    background: white;
+    border-radius: 10px;
+    margin-bottom: 100px;
+}
+.mt{
+    margin-top: 10%;
+}
+.btn_with_hover{
+    background: white;
+    font-size: 16px;
+    border-radius: 10px;
+    width: 131px;
+    height: 60px;
+}
+.btn_with_hover:hover{
+
+    width: 131px;
+    height: 60px;
+    background: #FF6652;
+    box-shadow: 0px 15px 50px rgba(255, 102, 82, 0.2);
+    border-radius: 10px;
+}
+.inputes{
+    width: 270px;
+    position: absolute;
+   
+}
+.acc{
+    display: flex;
+    align-items: center;
+}
+.lopa{
+    position: relative;
+    margin-left: 210px;
+    margin-top: -2%;   
+}
+.d-will-block{
+    display: none;
+}
+@media screen and (max-width: 991px) {
+    .md-none{
+        display: none !important;
+    }
+    .inputes{
+        width: 290px;
+        position: absolute;
+       width: 190px;
+    }
+}
+@media screen and (max-width: 920px) {
+    .form-select{
+        margin-top: 30%;
+        margin-bottom: 10px;
+        width: 190%;
+        margin-left: -100%;
+    }
+    h1 {
+        font-size: 30px !important;
+    }
+    .book_shelf{
+        width: 100%;
+    }
+    .inputes{
+        margin-left: 20px;
+        width: 50%;
+        position: absolute;
+    }
+    .lopa{
+        position: relative;
+        margin-left: 185%;
+        margin-top: -4%;   
+    }
+
+
+}
+@media screen and (max-width: 769px) {
+    h1 {
+        font-size: 20px !important;
+    }
+    .strong{
+        font-size: 10px !important;
+    }
+    .inputes{
+        margin-left: 20px;
+        width: 50%;
+        position: absolute;
+    }
+    .btn_with_hover{
+        background: white;
+        font-size: 7px;
+        font-weight: bold;
+    }
+    .sm-none{
+        display: none !important;
+    }
+    .form-select{
+        margin-top: 30%;
+        margin-bottom: 10px;
+        width: 190%;
+        margin-left: -100%;
+    }
+
+}
+@media screen and (max-width:578px) {
+    .btn_with_hover{
+        background: white;
+        font-size: 5px;
+        font-weight: bold;
+    }
+    .md-none{
+        display: none !important;
+    }
+    .d-will-none{
+        display: none !important;
+    }
+    .d-will-block{
+        display: block !important; 
+    }
+    .inputes{
+        margin-left: 20px;
+        width: 10% !important;
+        position: absolute;
+        
+    }
+}
+
+.sec6-title2{
+    width: 676px;
+    height: 110px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+    text-align: center;
+    color: #FFFFFF;
+margin-left: 300px;
+padding-top: 50px;
+}

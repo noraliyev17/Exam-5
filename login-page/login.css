@@ -1,0 +1,493 @@
+
+.hr{
+    width: 2px  !important;
+    height: 630px  !important;
+    margin-left:87px !important;
+    margin-top: 50px;
+}
+.google{
+    width: 300px;
+    height: 44px;
+    border: 2px solid rgba(0, 0, 0, 0.652);
+    border-radius: 10px;
+    margin-left: 270px;
+    margin-bottom: 0px;
+    background: #fff;
+    position: absolute;
+    margin-top: 65px;
+}
+.google-icon{
+    position: relative;
+    left: -03px;
+    width: 37px;
+}
+.sig-email{
+position: relative;
+left: 330px;
+top: 140px;
+width: 196px;
+}
+.inp-form{
+    margin-left: 240px;
+    margin-top: 170px;
+}
+.chekbox-chek{
+    margin-top: 10px;
+}
+.btn-ozimizniki{
+    width: 370px;
+height: 50px;
+background: #9C4DF4;
+border-radius: 10px;
+color:#fff;
+}
+.btn-ozimizniki:hover{
+    border: 1px solid black;
+    color: #000;
+}
+.go-login{
+    margin-left: 90px;
+    margin-top: 20px;
+}
+.href-reg{
+    color: #9C4DF4;
+}
+.google-desc{
+    margin-top: 5px;
+    margin-left: 20px;
+}
+.vector-svg{
+    position: relative;
+    width: 20px;
+    top: 32px;
+    left: 13px;
+}
+.my-card{
+    width: 1060px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius:10px;
+    margin-left: 100px;
+    height: 760px;
+}
+.big-img{
+   width: 355px;
+   height: 591px;
+   margin-left: 88px;
+   margin-top: 65px;
+   /* margin-bottom: 54px; */
+}
+#iagree{
+    width: 30px;
+}
+.inp-with{
+    width: 370px;
+    height: 40px;
+}
+
+/* responseve************************************************************************************************************************ */
+
+@media only screen and (max-width: 992px) {
+
+
+
+
+    .hr{
+        width: 2px  !important;
+        height: 630px  !important;
+        margin-left:57px !important;
+        margin-top: 50px;
+    }
+    .google{
+        width: 260px;
+        height: 44px;
+        border: 2px solid rgba(0, 0, 0, 0.652);
+        border-radius: 10px;
+        margin-left: 225px;
+        margin-bottom: 0px;
+        background: #fff;
+        position: absolute;
+        margin-top: 65px;
+    }
+    .google-icon{
+        position: relative;
+        left: -03px;
+        width: 37px;
+    }
+    .sig-email{
+    position: relative;
+    left: 267px;
+    top: 140px;
+    width: 196px;
+    }
+    .inp-form{
+        margin-left: 200px;
+        margin-top: 170px;
+    }
+    .chekbox-chek{
+        margin-top: 10px;
+    }
+    .btn-ozimizniki{
+        width: 310px;
+    height: 50px;
+    background: #9C4DF4;
+    border-radius: 10px;
+    color:#fff;
+    }
+    .btn-ozimizniki:hover{
+        border: 1px solid black;
+        color: #000;
+    }
+    .go-login{
+        margin-left: 60px;
+        margin-top: 20px;
+    }
+    .href-reg{
+        color: #9C4DF4;
+    }
+    .google-desc{
+        margin-top: 5px;
+        margin-left: 20px;
+    }
+    .vector-svg{
+        position: relative;
+        width: 20px;
+        top: 32px;
+        left: 13px;
+    }
+    .my-card{
+        width: 864px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        border-radius:10px;
+        margin-left: 40px;
+        height: 800px;
+    }
+    .big-img{
+       width: 355px;
+       height: 591px;
+       margin-left: 88px;
+       margin-top: 65px;
+       /* margin-bottom: 54px; */
+    }
+    #iagree{
+        width: 30px;
+    }
+    .inp-with{
+        width: 310px;
+        height: 40px;
+    }
+    }
+    
+    
+    /* 768******************************************************************************************************
+    */
+    
+    
+    
+    @media only screen and (max-width: 768px) {
+    
+    
+    
+    
+        .hr{
+            width: 2px  !important;
+            height: 630px  !important;
+            margin-left:37px !important;
+            margin-top: 50px;
+        }
+        .google{
+            width: 235px;
+            height: 44px;
+            border: 2px solid rgba(0, 0, 0, 0.652);
+            border-radius: 10px;
+            margin-left: 170px;
+            margin-bottom: 0px;
+            background: #fff;
+            position: absolute;
+            margin-top: 65px;
+        }
+        .google-icon{
+            position: relative;
+            left: -03px;
+            width: 37px;
+        }
+        .sig-email{
+        position: relative;
+        left: 190px;
+        top: 140px;
+        width: 196px;
+        }
+        .inp-form{
+            margin-left: 140px;
+            margin-top: 170px;
+        }
+        .chekbox-chek{
+            margin-top: 10px;
+        }
+        .btn-ozimizniki{
+            width: 310px;
+        height: 50px;
+        background: #9C4DF4;
+        border-radius: 10px;
+        color:#fff;
+        }
+        .btn-ozimizniki:hover{
+            border: 1px solid black;
+            color: #000;
+        }
+        .go-login{
+            margin-left: 60px;
+            margin-top: 20px;
+        }
+        .href-reg{
+            color: #9C4DF4;
+        }
+        .google-desc{
+            margin-top: 5px;
+            margin-left: 20px;
+        }
+        .vector-svg{
+            position: relative;
+            width: 20px;
+            top: 32px;
+            left: 13px;
+        }
+        .my-card{
+            width: 724px;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            border-radius:10px;
+            margin-left: -15px;
+            height: 700px;
+            position: relative;
+            top: 50px;
+        }
+        .big-img{
+           width: 864px;
+           height: 600px;
+           margin-left: 68px;
+           margin-top:5px;
+    
+        }
+        #iagree{
+            width: 30px;
+        }
+        .inp-with{
+            width: 300px;
+            height: 40px;
+        }
+        }
+    
+    
+    
+    
+        /* 576******************************************************************************************************
+    */
+    
+    
+    
+    @media only screen and (max-width: 576px) {
+    
+    
+    
+    
+        .hr{
+            width: 2px  !important;
+            height: 630px  !important;
+            margin-left:37px !important;
+            margin-top: 50px;
+            display: none;
+        }
+        .google{
+            width: 295px;
+            height: 50px;
+            border: 2px solid rgba(0, 0, 0, 0.652);
+            border-radius: 10px;
+            margin-left: 110px;
+            margin-bottom: 0px;
+            background: #fff;
+            position: absolute;
+            margin-top: 65px;
+            display: flex;
+            align-items: center;
+            top: -20px;
+    
+        }
+        .google-icon{
+            position: relative;
+            left: -04px;
+            width: 37px;
+          width: 44px;
+        }
+        .sig-email{
+        position: relative;
+        left: 160px;
+        top: 110px;
+        width: 196px;
+        }
+        .inp-form{
+            margin-left: 110px;
+            margin-top: 130px;
+        }
+        .chekbox-chek{
+            margin-top: 10px;
+        }
+        .btn-ozimizniki{
+            width: 310px;
+        height: 50px;
+        background: #9C4DF4;
+        border-radius: 10px;
+        color:#fff;
+        }
+        .btn-ozimizniki:hover{
+            border: 1px solid black;
+            color: #000;
+        }
+        .go-login{
+            margin-left: 60px;
+    
+        }
+        .href-reg{
+            color: #9C4DF4;
+        }
+        .google-desc{
+            margin-top: 5px;
+            margin-left: 20px;
+        }
+        .vector-svg{
+            position: relative;
+            width: 20px;
+            top: 32px;
+            left: 13px;
+        }
+        .my-card{
+            width: 534px;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            border-radius:10px;
+            margin-left: -15px;
+            height: 670px;
+            position: relative;
+            top: 0px;
+        }
+        .big-img{
+       display: none;
+    
+        }
+        #iagree{
+            width: 30px;
+        }
+        .inp-with{
+            width: 300px;
+            height: 40px;
+        }
+        }
+    
+    
+    
+    
+         /* 375******************************************************************************************************
+    */
+    
+    
+    
+    @media only screen and (max-width: 376px) {
+    
+    
+    
+    
+        .hr{
+            width: 2px  !important;
+            height: 630px  !important;
+            margin-left:37px !important;
+            margin-top: 50px;
+            display: none;
+        }
+        .google{
+            width: 295px;
+            height: 50px;
+            border: 2px solid rgba(0, 0, 0, 0.652);
+            border-radius: 10px;
+            margin-left: 10px;
+            margin-bottom: 0px;
+            background: #fff;
+            position: absolute;
+            margin-top: 65px;
+            display: flex;
+            align-items: center;
+            top: -20px;
+    
+    
+        }
+        .google-icon{
+            position: relative;
+            left: -04px;
+            width: 37px;
+          width: 44px;
+        }
+        .sig-email{
+        position: relative;
+        left: 70px;
+        top: 110px;
+        width: 196px;
+        }
+        .inp-form{
+            margin-left: 10px;
+            margin-top: 130px;
+            width: 334px;
+        }
+        .chekbox-chek{
+            margin-top: 10px;
+        }
+        .btn-ozimizniki{
+            width: 310px;
+        height: 50px;
+        background: #9C4DF4;
+        border-radius: 10px;
+        color:#fff;
+        }
+        .btn-ozimizniki:hover{
+            border: 1px solid black;
+            color: #000;
+        }
+        .go-login{
+            margin-left: 60px;
+    
+        }
+        .href-reg{
+            color: #9C4DF4;
+        }
+        .google-desc{
+            margin-top: 5px;
+            margin-left: 20px;
+        }
+        .vector-svg{
+            position: relative;
+            width: 20px;
+            top: 32px;
+            left: 13px;
+        }
+        .my-card{
+            width: 360px;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            border-radius:10px;
+            margin-left: -5px;
+            height: 670px;
+            position: relative;
+            top: 0px;
+    
+         
+        }
+        .big-img{
+       display: none;
+    
+        }
+        #iagree{
+            width: 30px;
+        }
+        .inp-with{
+            width: 300px;
+            height: 40px;
+        }
+        .card-body{
+            padding: 0 !important;
+        }
+    
+        }   
